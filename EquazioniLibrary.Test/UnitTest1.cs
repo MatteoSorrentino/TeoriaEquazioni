@@ -22,7 +22,7 @@ namespace EquazioniLibrary.Test
         [TestMethod]
         public void TestDetermined2()
         {
-            double a = -5;
+            double a = -50;
 
             bool respAspettata = true;
 
