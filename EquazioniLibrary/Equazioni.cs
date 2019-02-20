@@ -19,18 +19,5 @@ namespace EquazioniLibrary
 
             return risp;
         }
-
-        public static bool IsIncosisted(double a, double b)
-        {
-            bool risp = false;
-
-            if (a == 0 && b==0)
-            {
-                risp = true;
-            }
-
-            return risp;
-        }
-
     }
 }
