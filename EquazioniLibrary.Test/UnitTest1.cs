@@ -282,6 +282,47 @@ namespace EquazioniLibrary.Test
 
         }
 
+        //test per equazioni di secondo grado
+        [TestMethod]
+        public void TestDegree2()
+        {
+            double a = 0;
+
+            bool respAspettata = false;
+
+            bool resp = Equazioni.IsDegree2(a);
+
+            Assert.AreEqual(respAspettata, resp);
+
+        }
+
+        [TestMethod]
+        public void TestDegree2_1()
+        {
+            double a = 5;
+
+            bool respAspettata = true;
+
+            bool resp = Equazioni.IsDegree2(a);
+
+            Assert.AreEqual(respAspettata, resp);
+
+        }
+
+        [TestMethod]
+        public void TestDegree2_2()
+        {
+            double a = -5;
+
+            bool respAspettata = true;
+
+            bool resp = Equazioni.IsDegree2(a);
+
+            Assert.AreEqual(respAspettata, resp);
+
+        }
+
+
 
     }
 }

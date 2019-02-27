@@ -44,5 +44,19 @@ namespace EquazioniLibrary
             return risp;
         }
 
+        public static bool IsDegree2(double a)
+        {
+            bool risp = true;
+
+            if (a == 0)
+            {
+                risp = false;
+            }
+
+            return risp;
+        }
+
+
+
     }
 }
